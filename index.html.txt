@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Bouquet Bliss</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #fce4ec;
+color: #333;
+margin: 0;
+padding: 0;
+text-align: center;
+}
+.header {
+background-color: #b3e5fc;
+padding: 20px;
+font-size: 24px;
+font-weight: bold;
+}
+.nav {
+margin: 20px;
+}
+.nav a {
+margin: 10px;
+text-decoration: none;
+color: #ff4081;
+font-weight: bold;
+}
+.container {
+padding: 20px;
+}
+.product {
+display: inline-block;
+width: 30%;
+margin: 10px;
+padding: 10px;
+background: white;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.product img {
+width: 100%;
+border-radius: 10px;
+}
+.order-button {
+display: inline-block;
+margin-top: 10px;
+padding: 10px 20px;
+background-color: #ff4081;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.contact, .about, .custom-order {
+background: white;
+padding: 20px;
+margin: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+</style>
+</head>
+<body>
+<div class="header">The Bouquet Bliss</div>
+<div class="nav">
+<a href="#shop">Shop</a>
+<a href="#about">About Us</a>
+<a href="#custom-order">Custom Orders</a>
+<a href="#contact">Contact</a>
+</div>
+
+<div class="container" id="shop">
+<h2>Shop Our Collection</h2>
+<div class="product">
+<img src="bouquet1.jpg" alt="Bouquet 1">
+<h3>Floral Elegance</h3>
+<p>Price: Rs. 2,500</p>
+<button class="order-button">Order Now</button>
+</div>
+<div class="product">
+<img src="bouquet2.jpg" alt="Bouquet 2">
+<h3>Gift Bouquet</h3>
+<p>Price: Rs. 3,200</p>
+<button class="order-button">Order Now</button>
+</div>
+<div class="product">
+<img src="bouquet3.jpg" alt="Bouquet 3">
+<h3>Luxury Roses</h3>
+<p>Price: Rs. 4,500</p>
+<button class="order-button">Order Now</button>
+</div>
+</div>
+
+<div class="about" id="about">
+<h2>About Us</h2>
+<p>Welcome to The Bouquet Bliss! We specialize in handcrafted aesthetic, floral, and gift bouquets, perfect for every occasion.</p>
+</div>
+
+<div class="custom-order" id="custom-order">
+<h2>Custom Orders</h2>
+<p>Looking for something unique? Fill out our custom order form, and we'll create a bouquet just for you!</p>
+<form>
+<input type="text" placeholder="Your Name" required><br><br>
+<input type="email" placeholder="Your Email" required><br><br>
+<textarea placeholder="Describe your custom bouquet" required></textarea><br><br>
+<button type="submit" class="order-button">Submit Request</button>
+</form>
+</div>
+
+<div class="contact" id="contact">
+<h2>Contact Us</h2>
+<p>📍 Karachi, Pakistan</p>
+<p>📞 WhatsApp: 000-0000000</p>
+<p>📧 Email: contact@thebouquetbliss.com</p>
+</div>
+</body>
+</html>
